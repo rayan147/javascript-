@@ -26,7 +26,7 @@ log(assert.equal(multiply('9',2),18)) // true
 
  const convertStringToNumber =(a)=>{
   if(typeof a === 'string'){
-    return Number.toString(a)
+    return Number(a)
   }
   return a
   }
